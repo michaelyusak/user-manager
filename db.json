@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Asep",
+      "address": "Nagrek",
+      "gender": "Pria",
+      "dob": "03 Mei 1990",
+      "doi": "26 Jan 2023 11:04"
+    },
+    {
+      "id": "2",
+      "name": "Septian",
+      "address": "Bandung",
+      "gender": "Pria",
+      "dob": "28 Sep 1990",
+      "doi": "26 Jan 2023 12:22"
+    },
+    {
+      "name": "susi",
+      "address": "bekasi",
+      "gender": "Wanita",
+      "dob": "01 Jul 2024",
+      "doi": "25 Jun 2024 11:56",
+      "id": "7171"
+    }
+  ]
+}

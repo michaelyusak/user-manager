@@ -1,0 +1,28 @@
+.loading {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.loading > img {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.356);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.loading > div {
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}

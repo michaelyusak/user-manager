@@ -1,0 +1,1 @@
+export const NameRegex = new RegExp("^[a-zA-Z]+(?: [a-zA-Z]+)*$");

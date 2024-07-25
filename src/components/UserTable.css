@@ -1,0 +1,63 @@
+.head > table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: solid black 3px;
+}
+
+.body > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.body tr {
+    border-bottom: solid black 1px;
+}
+
+tbody {
+    min-height: 600px;
+}
+
+th {
+    padding: 5px;
+}
+
+th:nth-child(1) {
+    width: 5%;
+}
+
+th:nth-child(2) {
+    width: 15%;
+}
+
+th:nth-child(3) {
+    width: 15%;
+}
+
+th:nth-child(4) {
+    width: 5%;
+}
+
+th:nth-child(5) {
+    width: 15%;
+}
+
+th:nth-child(6) {
+    width: 15%;
+}
+
+th:nth-child(7) {
+    width: 30%;
+}
+
+th:nth-child(7) > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.body {
+    height: 500px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    width: 100%;
+}
